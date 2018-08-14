@@ -1,4 +1,5 @@
 1.maven依赖配置
+
 ```
 <dependency>
     <groupId>org.springframework.data</groupId>
@@ -13,6 +14,7 @@
 ```
 
 2.spring配置
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -56,6 +58,7 @@
 ```
 
 3.自己写的redis操作类，只是单个节点的增删改查
+
 ```
 package com.rpc.redis;
 
@@ -112,5 +115,7 @@ public class RedisClient {
         logger.info("redis: delete key={}", key);
     }
 }
-
 ```
+4.如果需要在redis中存放复杂对象，该对象需要实现Serializable接口
+
+
