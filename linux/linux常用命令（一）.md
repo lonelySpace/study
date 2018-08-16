@@ -1,6 +1,6 @@
 1.查看端口信息netstat
 ```
-常用netstat -alnp
+常用 netstat -alnp
 参数说明：
 -a或--all：显示所有连线中的Socket；
 -A<网络类型>或--<网络类型>：列出该网络类型连线中的相关地址；
