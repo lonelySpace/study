@@ -35,6 +35,6 @@ public class ExectueTimeInterceptor {
 ```
 2.spring.xml
 ```xml
-<!---添加这段配置--->
+<!--添加这段配置-->
 <aop:aspectj-autoproxy />
 ```
