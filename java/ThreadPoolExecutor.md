@@ -133,7 +133,5 @@ private boolean addWorker(Runnable firstTask, boolean core) {
 ```
 1. 判断当前的状态是否能够进行addTask操作，不能则返回false
 2. 判断当前的worker数量是否大于最大上限或者大于自己设定的值，如果是返回false
-3. 
-
-
+3. 满足条件任务数量+1，如果+1失败重复检查，直到不满足条件或者+1成功，+1操作是原子操作，线程安全，retry类似于goto
 
