@@ -30,7 +30,8 @@ public void setConfigLocations(String... locations) {
     }
 }
 ```
-
+## 3.1 configLocations解析
+![](/assets/configLocations解析.png)
 # 4.AbstractApplicationContext.java
 ```
 // 容器初始化核心方法
